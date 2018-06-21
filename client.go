@@ -539,7 +539,7 @@ func SetDefaultLoggerName(name string) {
 	DefaultClient.SetDefaultLoggerName(name)
 }
 
-// SetSampleRate sets the "sample rate" on the degault *Client
+// SetSampleRate sets the "sample rate" on the default *Client
 func SetSampleRate(rate float32) error { return DefaultClient.SetSampleRate(rate) }
 
 func (client *Client) worker() {
